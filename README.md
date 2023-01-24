@@ -1,5 +1,4 @@
-# felt
+# Felt
 
-> free and open source software and tools for building and maintaining communities,
-> publishing to the web, and collaborating with information 💚
+> the website for the Felt project 💚
 > [felt.dev](https://www.felt.dev/)

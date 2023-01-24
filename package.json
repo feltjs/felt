@@ -1,6 +1,6 @@
 {
   "name": "felt",
-  "description": "free and open source software and tools for building and maintaining communities, publishing to the web, and collaborating with information",
+  "description": "the website for the Felt project",
   "version": "0.0.1",
   "license": "MIT",
   "type": "module",
