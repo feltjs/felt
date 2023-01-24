@@ -1,9 +1,10 @@
 {
-  "name": "felt-template",
-  "description": "a static web app and Node library template with SvelteKit, Gro, and Felt",
+  "name": "felt",
+  "description": "free and open source software and tools for building and maintaining communities, publishing to the web, and collaborating with information",
   "version": "0.0.1",
+  "license": "MIT",
   "type": "module",
-  "homepage": "https://template.felt.dev",
+  "homepage": "https://www.felt.dev",
   "engines": {
     "node": ">=18.6"
   },
