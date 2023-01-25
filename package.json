@@ -16,10 +16,10 @@
     "deploy": "gro deploy"
   },
   "devDependencies": {
-    "@feltcoop/eslint-config": "^0.2.1",
-    "@feltcoop/gro": "^0.70.0",
-    "@feltcoop/util": "^0.5.0",
+    "@feltjs/eslint-config": "^0.2.1",
     "@feltjs/felt-ui": "^0.47.0",
+    "@feltjs/gro": "^0.70.4",
+    "@feltjs/util": "^0.5.2",
     "@sveltejs/adapter-static": "^1.0.5",
     "@sveltejs/kit": "^1.2.2",
     "@typescript-eslint/eslint-plugin": "^5.48.2",
@@ -37,7 +37,7 @@
   },
   "eslintConfig": {
     "root": true,
-    "extends": "@feltcoop"
+    "extends": "@feltjs"
   },
   "prettier": {
     "useTabs": true,
