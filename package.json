@@ -11,10 +11,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/feltcoop/felt.social.git"
+    "url": "git+https://github.com/feltjs/felt.git"
   },
   "bugs": {
-    "url": "https://github.com/feltcoop/felt.social/issues",
+    "url": "https://github.com/feltjs/felt/issues",
     "email": "team@felt.social"
   },
   "type": "module",
