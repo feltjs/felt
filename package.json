@@ -3,10 +3,23 @@
   "description": "the website for the Felt project",
   "version": "0.0.1",
   "license": "MIT",
+  "homepage": "https://www.felt.dev/",
+  "author": {
+    "name": "Felt Co-op",
+    "email": "team@felt.social",
+    "url": "https://www.felt.social/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/feltcoop/felt.social.git"
+  },
+  "bugs": {
+    "url": "https://github.com/feltcoop/felt.social/issues",
+    "email": "team@felt.social"
+  },
   "type": "module",
-  "homepage": "https://www.felt.dev",
   "engines": {
-    "node": ">=18.6"
+    "node": ">= 18.6.0"
   },
   "scripts": {
     "start": "gro dev",
