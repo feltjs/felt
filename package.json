@@ -17,9 +17,9 @@
   },
   "devDependencies": {
     "@feltcoop/eslint-config": "^0.2.1",
-    "@feltcoop/felt": "^0.46.0",
     "@feltcoop/gro": "^0.70.0",
     "@feltcoop/util": "^0.5.0",
+    "@feltjs/felt-ui": "^0.47.0",
     "@sveltejs/adapter-static": "^1.0.5",
     "@sveltejs/kit": "^1.2.2",
     "@typescript-eslint/eslint-plugin": "^5.48.2",
