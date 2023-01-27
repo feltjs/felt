@@ -4,6 +4,7 @@ export const project = {
 		'sustainability through aligned incentives',
 		'positive-sum collaboration, community, and governance',
 		'open source',
+		'going with the grain of the web',
 		'transparency and accountability',
 		'simplicity and efficiency',
 		'easy self-hosting',
