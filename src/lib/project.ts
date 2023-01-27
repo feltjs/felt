@@ -10,7 +10,8 @@ export const project = {
 		'easy self-hosting',
 		'privacy by default',
 		'accessibility and inclusivity',
-		'growth mindset with continuous improvement and learning',
+		'interoperability',
+		'growth mindsets with continuous improvement and learning',
 		'fostering innovation and experimentation',
 	],
 };
