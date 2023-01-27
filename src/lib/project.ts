@@ -1,6 +1,6 @@
 export const project = {
 	values: [
-		'users come first',
+		'we put the people who use our software first',
 		'sustainability through aligned incentives',
 		'intentional collaboration, community, and governance',
 		'open source',
