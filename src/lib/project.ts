@@ -7,7 +7,7 @@ export const project = {
 		'going with the grain of the web',
 		'transparency and accountability',
 		'simplicity and efficiency',
-		'easy self-hosting',
+		'easy and inexpensive self-hosting',
 		'privacy by default',
 		'accessibility and inclusivity',
 		'fostering learning, innovation, and experimentation',
