@@ -2,7 +2,7 @@ export const project = {
 	values: [
 		'users come first',
 		'sustainability through aligned incentives',
-		'positive-sum collaboration, community, and governance',
+		'intentional collaboration, community, and governance',
 		'open source',
 		'going with the grain of the web',
 		'transparency and accountability',
