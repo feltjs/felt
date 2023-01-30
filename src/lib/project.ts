@@ -8,7 +8,7 @@ export const project = {
 		'simplicity and efficiency',
 		'easy and inexpensive self-hosting',
 		'privacy by default',
-		'accessibility, inclusivity, diversity',
+		'accessibility, inclusivity, and diversity',
 		'going with the grain of the web',
 		'fostering learning, innovation, and experimentation',
 	],
