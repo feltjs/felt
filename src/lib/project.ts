@@ -3,7 +3,7 @@ export const project = {
 		'we put the people who use our software first',
 		'sustainability through aligned incentives',
 		'intentional collaboration, community, and governance',
-		'open source',
+		'open source and interoperability',
 		'transparency and accountability',
 		'simplicity and efficiency',
 		'easy and inexpensive self-hosting',
