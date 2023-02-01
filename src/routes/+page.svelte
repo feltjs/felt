@@ -12,7 +12,8 @@
 		</header>
 		<blockquote class="column-sm">{project.summary}</blockquote>
 	</section>
-	<section>
+	<section class="panel padded-md">
+		<h2 style="width: 100%">repos:</h2>
 		<table>
 			<tbody
 				>{#each project.repos as repo}<tr
@@ -30,7 +31,7 @@
 		</table>
 	</section>
 	<section class="centered panel padded-lg">
-		<h3 style="width: 100%">values:</h3>
+		<h2 style="width: 100%">values:</h2>
 		<ul>
 			{#each project.values as value}<li>{value}</li>{/each}
 		</ul>
@@ -68,6 +69,13 @@
 	td:first-child,
 	td:nth-child(2) {
 		font-size: var(--font_size_lg);
+	}
+	@media (max-width: 640px) {
+		tr {
+			padding: var(--spacing_xl3) var(--spacing_xs);
+			display: flex;
+			flex-direction: column;
+		}
 	}
 	tr:nth-child(2n) {
 		background-color: var(--tint_dark_1);
