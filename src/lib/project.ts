@@ -19,11 +19,11 @@ export interface Operator {
 
 export const project: Project = {
 	summary:
-		'free and open source software and tools for building and maintaining communities, publishing to the web, and collaborating with information💚',
+		'Felt is free and open source software and tools for building and maintaining communities, publishing to the web, and collaborating with information💚',
 	repos: [
 		{
-			name: 'Felt',
-			summary: 'the website for the Felt project (you are here)',
+			name: 'Felt project website',
+			summary: 'you are here',
 			url: 'https://www.felt.dev/',
 			source: 'https://github.com/feltjs/felt',
 		},
@@ -57,13 +57,13 @@ export const project: Project = {
 		'we put the people who use our software first',
 		'sustainability through aligned incentives',
 		'intentional collaboration, community, and governance',
-		'open source and interoperability',
+		'open source',
+		'cooperative interoperability and web-friendliness',
 		'transparency and accountability',
 		'simplicity and efficiency',
 		'easy and inexpensive self-hosting',
 		'privacy by default',
 		'accessibility, inclusivity, and diversity',
-		'going with the grain of the web',
 		'fostering learning, innovation, and experimentation',
 	],
 };

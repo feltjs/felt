@@ -16,14 +16,18 @@
 		<table>
 			<tbody
 				>{#each project.repos as repo}<tr
-						><td><a href={repo.source}>{repo.name}</a></td><td
-							><a href={repo.url}>{stripEnd(repo.url.substring(8), '/')}</a></td
-						><td>{repo.summary}</td></tr
+						><td
+							><a href={repo.source}
+								>{#if repo.name.startsWith('@')}<code>{repo.name}</code>{:else}{repo.name}{/if}</a
+							></td
+						><td><a href={repo.url}>{stripEnd(repo.url.substring(8), '/')}</a></td><td
+							>{repo.summary}</td
+						></tr
 					>{/each}</tbody
 			>
 		</table>
 	</section>
-	<section class="centered">
+	<section class="centered panel padded-lg">
 		<h3 style="width: 100%">values:</h3>
 		<ul>
 			{#each project.values as value}<li>{value}</li>{/each}
