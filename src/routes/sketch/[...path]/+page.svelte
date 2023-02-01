@@ -3,8 +3,10 @@
 	import {page} from '$app/stores';
 	import {goto} from '$app/navigation';
 
+	const redirect = 'https://ui.felt.dev' + $page.url.pathname;
+
 	// redirect old sketch links to ui.felt.dev
-	if (browser) void goto('https://ui.felt.dev' + $page.url.pathname);
+	if (browser) void goto(redirect);
 </script>
 
-ok
+redirect to <a href="redirect">{redirect}</a>
