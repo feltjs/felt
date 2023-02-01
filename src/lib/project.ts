@@ -61,7 +61,7 @@ export const project: Project = {
 		'cooperative interoperability and web-friendliness',
 		'transparency and accountability',
 		'simplicity and efficiency',
-		'easy and inexpensive self-hosting',
+		'easy and low-resource-usage self-hosting',
 		'privacy by default',
 		'accessibility, inclusivity, and diversity',
 		'fostering learning, innovation, and experimentation',
