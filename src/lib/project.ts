@@ -70,7 +70,7 @@ export const project: Project = {
 		'open source and interoperability',
 		'transparency and accountability',
 		'simplicity and efficiency',
-		'easy and low-resource-usage self-hosting',
+		'easy and inexpensive self-hosting',
 		'privacy by default',
 		'accessibility, inclusivity, and diversity',
 		'fostering learning, innovation, and experimentation',
