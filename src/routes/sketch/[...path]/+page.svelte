@@ -5,10 +5,10 @@
 
 	// TODO is there a better way to do this with static websites? searching Kit docs came up short
 
-	const redirect = 'https://ui.felt.dev' + $page.url.pathname;
+	const redirectUrl = 'https://ui.felt.dev' + $page.url.pathname;
 
 	// redirect old sketch links to ui.felt.dev
-	if (browser) void goto(redirect);
+	if (browser) void goto(redirectUrl);
 </script>
 
-redirect to <a href="redirect">{redirect}</a>
+redirect to <a href={redirectUrl}>{redirectUrl}</a>
