@@ -51,6 +51,12 @@ export const project: Project = {
 			source: 'https://github.com/feltjs/felt-template',
 		},
 		{
+			name: '@feltcoop/gro',
+			summary: 'opinionated webdev toolkit',
+			url: '',
+			source: 'https://github.com/feltjs/gro',
+		},
+		{
 			name: '@feltjs/felt-util',
 			summary: 'a collection of JS utilities to complement the modern web platform',
 			url: 'https://util.felt.dev/',
