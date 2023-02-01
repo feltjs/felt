@@ -1,5 +1,5 @@
 <script lang="ts">
-	import {stripEnd} from '@feltjs/util/string.js';
+	import {stripEnd, stripStart} from '@feltjs/util/string.js';
 	import {base} from '$app/paths';
 
 	import {project} from '$lib/project';
@@ -20,9 +20,11 @@
 							><a href={repo.source}
 								>{#if repo.name.startsWith('@')}<code>{repo.name}</code>{:else}{repo.name}{/if}</a
 							></td
-						><td><a href={repo.url}>{stripEnd(repo.url.substring(8), '/')}</a></td><td
-							>{repo.summary}</td
-						></tr
+						><td
+							><a href={repo.url}
+								>{stripEnd(stripStart(stripStart(repo.url, 'https://'), 'www.'), '/')}</a
+							></td
+						><td>{repo.summary}</td></tr
 					>{/each}</tbody
 			>
 		</table>
@@ -60,11 +62,12 @@
 	h1 {
 		text-align: center;
 	}
-	table {
-		font-size: var(--font_size_lg);
-	}
 	tr {
 		background-color: var(--tint_dark_0);
+	}
+	td:first-child,
+	td:nth-child(2) {
+		font-size: var(--font_size_lg);
 	}
 	tr:nth-child(2n) {
 		background-color: var(--tint_dark_1);
