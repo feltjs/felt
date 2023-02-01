@@ -39,7 +39,7 @@ export const project: Project = {
 		},
 		{
 			name: '@feltjs/felt-ui',
-			summary: 'styles and Svelte UI components',
+			summary: 'styles and UI components for Svelte and SvelteKit',
 			url: 'https://ui.felt.dev/',
 			source: 'https://github.com/feltjs/felt-ui',
 		},
