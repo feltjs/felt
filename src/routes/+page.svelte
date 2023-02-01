@@ -13,7 +13,7 @@
 		<blockquote class="column-sm">{project.summary}</blockquote>
 	</section>
 	<section class="panel padded-md">
-		<h2 style="width: 100%">repos:</h2>
+		<h2 style="width: 100%">Repos</h2>
 		<table>
 			<tbody
 				>{#each project.repos as repo}<tr
@@ -31,7 +31,7 @@
 		</table>
 	</section>
 	<section class="centered panel padded-lg">
-		<h2 style="width: 100%">values:</h2>
+		<h2 style="width: 100%">Values</h2>
 		<ul>
 			{#each project.values as value}<li>{value}</li>{/each}
 		</ul>
