@@ -68,7 +68,7 @@ export const project: Project = {
 		'sustainability through aligned incentives',
 		'intentional collaboration, community, and governance',
 		'open source',
-		'cooperative interoperability and web-friendliness',
+		'interoperability and web-friendliness',
 		'transparency and accountability',
 		'simplicity and efficiency',
 		'easy and low-resource-usage self-hosting',
