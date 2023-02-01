@@ -7,18 +7,18 @@
 
 <main class="markup column">
 	<section>
-		<header class="centered-hz">
-			<img src="{base}/favicon.png" alt="green felt textured heart with the word 'felt' cut out" />
-			<h1><a href="https://github.com/feltjs">felt</a></h1>
+		<header class="centered">
+			<h1><a href="https://github.com/feltjs/felt">felt</a></h1>
 		</header>
+		<blockquote class="column-sm">{project.summary}</blockquote>
 	</section>
 	<section>
 		<table>
 			<tbody
 				>{#each project.repos as repo}<tr
-						><td>{repo.name}</td><td>{repo.summary}</td><td
+						><td><a href={repo.source}>{repo.name}</a></td><td
 							><a href={repo.url}>{stripEnd(repo.url.substring(8), '/')}</a></td
-						><td><a href={repo.source}>src</a></td></tr
+						><td>{repo.summary}</td></tr
 					>{/each}</tbody
 			>
 		</table>
@@ -29,9 +29,15 @@
 			{#each project.values as value}<li>{value}</li>{/each}
 		</ul>
 	</section>
-	<section class="centered">
+	<footer class="centered">
 		<p><a href="https://github.com/feltjs/felt">source code</a></p>
-	</section>
+		<a href="https://github.com/feltjs"
+			><img
+				src="{base}/favicon.png"
+				alt="green felt textured heart with the word 'felt' cut out"
+			/></a
+		>
+	</footer>
 </main>
 
 <style>
@@ -40,6 +46,12 @@
 		flex-direction: column;
 		align-items: center;
 		margin: 0 auto;
+	}
+	header {
+		text-align: center;
+	}
+	footer img {
+		margin: var(--spacing_xl) 0;
 	}
 	h1 {
 		text-align: center;

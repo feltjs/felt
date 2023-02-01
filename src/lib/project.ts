@@ -1,7 +1,8 @@
 export interface Project {
+	summary: string;
 	repos: Repo[];
 	values: string[];
-	operators: Operator[];
+	// operators: Operator[]; // TODO ?
 }
 
 export interface Repo {
@@ -17,6 +18,8 @@ export interface Operator {
 }
 
 export const project: Project = {
+	summary:
+		'free and open source software and tools for building and maintaining communities, publishing to the web, and collaborating with information💚',
 	repos: [
 		{
 			name: 'Felt',
@@ -47,7 +50,7 @@ export const project: Project = {
 			name: '@feltjs/felt-util',
 			summary: 'a collection of JS utilities to complement the modern web platform',
 			url: 'https://util.felt.dev/',
-			source: 'https://github.com/feltjs/felt-util',
+			source: 'https://github.com/feltjs/util',
 		},
 	],
 	values: [

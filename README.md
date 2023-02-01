@@ -3,4 +3,6 @@
 > the website for the Felt project 💚
 > [felt.dev](https://www.felt.dev/)
 
-coming soon
+License: [MIT](LICENSE)
+
+For more, see [GOVERNANCE.md](GOVERNANCE.md)
