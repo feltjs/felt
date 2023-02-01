@@ -1,4 +1,6 @@
 export interface Project {
+	name: string;
+	source: string;
 	summary: string;
 	repos: Repo[];
 	values: string[];
@@ -18,6 +20,8 @@ export interface Operator {
 }
 
 export const project: Project = {
+	name: 'Felt',
+	source: 'https://github.com/feltjs/felt',
 	summary:
 		'Felt is free and open source software and tools for building and maintaining communities, publishing to the web, and collaborating with information💚',
 	repos: [

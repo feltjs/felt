@@ -8,7 +8,7 @@
 <main class="markup column">
 	<section>
 		<header class="centered">
-			<h1><a href="https://github.com/feltjs/felt">felt</a></h1>
+			<h1><a href={project.source}>{project.name}</a></h1>
 		</header>
 		<blockquote class="column-sm">{project.summary}</blockquote>
 	</section>
@@ -34,7 +34,7 @@
 		</ul>
 	</section>
 	<footer class="centered">
-		<p><a href="https://github.com/feltjs/felt">source code</a></p>
+		<p><a href={project.source}>source code</a></p>
 		<a href="https://github.com/feltjs"
 			><img
 				src="{base}/favicon.png"
