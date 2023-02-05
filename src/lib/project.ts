@@ -73,6 +73,6 @@ export const project: Project = {
 		'easy and inexpensive self-hosting',
 		'privacy by default',
 		'accessibility, inclusivity, and diversity',
-		'fostering learning, innovation, and experimentation',
+		'fostering learning and experimentation',
 	],
 };
