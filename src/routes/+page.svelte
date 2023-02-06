@@ -64,6 +64,7 @@
 		display: flex;
 	}
 	h1 {
+		margin-top: var(--spacing_xl2);
 		text-align: center;
 	}
 	tr {
