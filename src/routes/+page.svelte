@@ -1,6 +1,7 @@
 <script lang="ts">
 	import {stripEnd, stripStart} from '@feltjs/util/string.js';
 	import {base} from '$app/paths';
+	import {page} from '$app/stores';
 
 	import {project} from '$lib/project';
 </script>
@@ -22,7 +23,7 @@
 								>{#if repo.name.startsWith('@')}<code>{repo.name}</code>{:else}{repo.name}{/if}</a
 							></td
 						><td
-							><a href={repo.url}
+							><a href={repo.url} class:selected={repo.url === $page.url.href}
 								>{stripEnd(stripStart(stripStart(repo.url, 'https://'), 'www.'), '/')}</a
 							></td
 						><td>{repo.summary}</td></tr
