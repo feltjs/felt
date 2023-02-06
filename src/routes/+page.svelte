@@ -39,9 +39,9 @@
 			See <a href="https://github.com/feltjs/felt/blob/main/GOVERNANCE.md">GOVERNANCE.md</a> for more.
 		</p>
 	</section>
-	<footer class="centered">
+	<footer class="panel padded-md centered">
 		<p><a href={project.source}>source code</a></p>
-		<a href="https://github.com/feltjs"
+		<a class="footer-image-link" href="https://github.com/feltjs"
 			><img
 				src="{base}/favicon.png"
 				alt="green felt textured heart with the word 'felt' cut out"
@@ -60,8 +60,8 @@
 	header {
 		text-align: center;
 	}
-	footer img {
-		margin: var(--spacing_xl) 0;
+	.footer-image-link {
+		display: flex;
 	}
 	h1 {
 		text-align: center;
