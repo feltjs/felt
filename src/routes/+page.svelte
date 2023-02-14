@@ -8,6 +8,7 @@
 
 <main class="markup column">
 	<section>
+		<a href="/sketch">sketch</a>
 		<header class="centered">
 			<h1><a href={project.source}>{project.name}</a></h1>
 		</header>

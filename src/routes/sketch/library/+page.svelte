@@ -1,5 +1,5 @@
 <script lang="ts">
-	import Redirect from '$lib/Redirect.svelte';
+	import Redirect from '$routes/Redirect.svelte';
 </script>
 
-<Redirect />
+<Redirect host="https://ui.felt.dev" path="/library" />
