@@ -20,6 +20,6 @@
 </script>
 
 <!-- Show a link as a backup to handle cases like JS being disabled. -->
-<main class="centered-hz markup">
+<div class="centered-hz markup">
 	<p>redirect to <a href={url}>{stripStart(url, 'https://')}</a></p>
-</main>
+</div>
