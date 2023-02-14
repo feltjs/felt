@@ -1,7 +1,6 @@
 <script lang="ts">
 	import {browser} from '$app/environment';
 	import {page} from '$app/stores';
-	import {onMount} from 'svelte';
 	import {stripStart} from '@feltjs/util/string.js';
 	import {goto} from '$app/navigation';
 
