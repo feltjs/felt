@@ -1,7 +1,7 @@
 <script lang="ts">
 	import '@feltjs/felt-ui/style.css';
 
-	import './style.css';
+	import '$routes/style.css';
 </script>
 
 <svelte:head>
