@@ -1,6 +1,7 @@
 <script lang="ts">
 	import {stripEnd, stripStart} from '@feltjs/util/string.js';
 	import Header from '$lib/Header.svelte';
+	import Intro from '$lib/Intro.svelte';
 	import {base} from '$app/paths';
 	import {page} from '$app/stores';
 
@@ -12,6 +13,9 @@
 		<Header>
 			<h1>{project.summary}</h1>
 		</Header>
+	</section>
+	<section>
+		<Intro />
 	</section>
 	<section class="panel padded-md">
 		<h2 style="width: 100%">Repos</h2>
