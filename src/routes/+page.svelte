@@ -1,5 +1,6 @@
 <script lang="ts">
 	import {stripEnd, stripStart} from '@feltjs/util/string.js';
+	import Header from '$lib/Header.svelte';
 	import {base} from '$app/paths';
 	import {page} from '$app/stores';
 
@@ -8,10 +9,9 @@
 
 <main class="markup column">
 	<section>
-		<header class="centered">
-			<h1><a href={project.source}>{project.name}</a></h1>
-		</header>
-		<blockquote class="column-sm">{project.summary}</blockquote>
+		<Header>
+			<h1>{project.summary}</h1>
+		</Header>
 	</section>
 	<section class="panel padded-md">
 		<h2 style="width: 100%">Repos</h2>
@@ -57,16 +57,13 @@
 		flex-direction: column;
 		align-items: center;
 		margin: 0 auto;
+		padding: 2em;
 	}
-	header {
-		text-align: center;
+	h1 {
+		font-size: var(--font_size_xl);
 	}
 	.footer-image-link {
 		display: flex;
-	}
-	h1 {
-		margin-top: var(--spacing_xl2);
-		text-align: center;
 	}
 	tr {
 		background-color: var(--tint_dark_0);

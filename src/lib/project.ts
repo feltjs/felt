@@ -22,8 +22,7 @@ export interface Operator {
 export const project: Project = {
 	name: 'Felt',
 	source: 'https://github.com/feltjs/felt',
-	summary:
-		'Felt is free and open source software and tools for building and maintaining communities, publishing to the web, and collaborating with information💚',
+	summary: 'A free and open source toolkit for building and maintaining communities',
 	repos: [
 		{
 			name: 'Felt project website',
