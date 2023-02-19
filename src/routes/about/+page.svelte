@@ -34,7 +34,7 @@
 		<p>
 			We plan to announce the Felt software alpha in Q1 2023. For updates subscribe to our
 			<a href="https://tinyletter.com/FeltCoop">our monthly newsletter</a>
-			and <a href="/toolmakersforum">podcast</a>.
+			and <a href="https://felt.social/toolmakersforum">podcast</a>.
 		</p>
 	</section>
 	<section class="centered panel padded-lg">
