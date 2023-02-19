@@ -8,4 +8,17 @@
 	<title>felt</title>
 </svelte:head>
 
-<slot />
+<main>
+	<slot />
+</main>
+
+<style>
+	main {
+		max-width: 980px;
+		padding: 2em;
+		margin: 0 auto;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+</style>

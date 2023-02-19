@@ -35,15 +35,6 @@
 			>
 		</table>
 	</section>
-	<section class="centered panel padded-lg">
-		<h2 style="width: 100%">Values</h2>
-		<ul>
-			{#each project.values as value}<li>{value}</li>{/each}
-		</ul>
-		<p style="width: 100%">
-			See <a href="https://github.com/feltjs/felt/blob/main/GOVERNANCE.md">GOVERNANCE.md</a> for more.
-		</p>
-	</section>
 	<footer class="panel padded-md centered">
 		<p><a href={project.source}>source code</a></p>
 		<a class="footer-image-link" href="https://github.com/feltjs"
@@ -56,13 +47,6 @@
 </main>
 
 <style>
-	main {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		margin: 0 auto;
-		padding: 2em;
-	}
 	h1 {
 		font-size: var(--font_size_xl);
 	}
