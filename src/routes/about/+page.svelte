@@ -2,8 +2,6 @@
 	import Header from '$lib/Header.svelte';
 	import Footer from '$lib/Footer.svelte';
 	import Values from '$lib/Values.svelte';
-
-	import {project} from '$lib/project';
 </script>
 
 <svelte:head>

@@ -1,5 +1,4 @@
 <script lang="ts">
-	import {stripEnd, stripStart} from '@feltjs/util/string.js';
 	import Header from '$lib/Header.svelte';
 	import Footer from '$lib/Footer.svelte';
 	import Intro from '$lib/Intro.svelte';

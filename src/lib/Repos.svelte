@@ -24,9 +24,6 @@
 </table>
 
 <style>
-	h1 {
-		font-size: var(--font_size_xl);
-	}
 	tr {
 		background-color: var(--tint_dark_0);
 	}
