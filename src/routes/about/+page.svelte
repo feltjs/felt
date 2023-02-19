@@ -224,4 +224,7 @@
 	.footer-wrapper {
 		margin-top: 50px;
 	}
+	h2 {
+		text-align: center;
+	}
 </style>
