@@ -125,7 +125,7 @@
 			</p>
 		</details>
 		<details>
-			<summary> Why isn't Felt decentralized/federated? </summary>
+			<summary> Why isn't Felt decentralized or federated? </summary>
 			<p>
 				We expect our tech — which is focused on <em>communities</em>, not <em>messaging</em> — to
 				eventually be decentralized/federated/etc, perhaps with ActivityPub or Matrix or both, but
