@@ -1,7 +1,7 @@
 <script lang="ts">
 	import Header from '$lib/Header.svelte';
 	import Footer from '$lib/Footer.svelte';
-	import Values from '$lib/Values.svelte';
+	import Values from '$routes/about/Values.svelte';
 </script>
 
 <svelte:head>
@@ -20,16 +20,6 @@
 			As part of that mission we are developing Felt (<a href="https://www.felt.dev/">felt.dev</a>,
 			<a href="https://github.com/feltjs">@feltjs</a> on GitHub), a free and open source toolkit for
 			building and maintaining communities, publishing to the web, and collaborating with information.
-		</p>
-		<p>
-			On top of that toolkit we are building the enterprise
-			<a href="https://www.felt.social/">Felt.social</a>
-			(@feltcoop on
-			<a href="https://github.com/feltcoop">GitHub</a>,
-			<a href="https://twitter.com/feltcoop">Twitter</a>, and
-			<a href="https://fosstodon.org/@feltcoop">Mastodon</a>). It is planned as a collectively-owned
-			platform, free of ads and investors, that supports & hosts communities that are human-scale,
-			self-governed, consentful, private by default, and deeply customizable and programmable.
 		</p>
 		<p>
 			We plan to announce the Felt software alpha in Q1 2023. For updates subscribe to our
@@ -67,37 +57,6 @@
 		</ul>
 	</section>
 	<section>
-		<h2>Felt's vision</h2>
-		<p>
-			Felt is more than just a website with features. It's an ambitious constellation of
-			<a href="https://github.com/feltcoop">open source web software projects</a> and a
-			<a href="https://www.felt.social">community and member/platform co-op</a> (communities owning themselves?
-			absurd), — all with a purpose that puts people first. If we do it right, Felt is tech that feels
-			good.
-		</p>
-		<p>
-			Felt The Business plans to make money through the revolutionary strategy of selling value to
-			users. The current plan is through paid membership subscriptions & hosting services at <a
-				href="https://www.felt.social">Felt.social</a
-			>. We want a business model that keeps our incentives aligned with our users, so we accept no
-			funding from third parties (e.g. advertisers and investors), and we won't sell coins or
-			transferable tokens. We hope to provide an excellent customer experience, but we'll make it
-			easy to export your data from our service and migrate to another. It's your data, you should
-			own it.
-		</p>
-		<p>
-			The company behind Felt will be a democratic worker co-op where us workers share equal
-			ownership and control. We believe this model will help Felt The Business remain
-			<span class="font-bold whitespace-no-wrap">→ accountable ←</span>
-			to its users, workers, and society. To learn more about why we chose this business structure, see
-			our (forthcoming) blog post "Why Felt is a worker co-op". In the future, we want to explore the
-			<a href="https://platform.coop/">platform cooperative model</a>
-			to share control and ownership with our users. (you, we hope!) Our
-			<a href="https://github.com/feltjs/felt/blob/main/GOVERNANCE.md">GOVERNANCE.md</a> reflects this
-			goal while being up front about our current dictator status as workers.
-		</p>
-	</section>
-	<section>
 		<h2>FAQ</h2>
 		<details>
 			<summary>When can I use Felt?</summary>
@@ -127,15 +86,17 @@
 		<details>
 			<summary> Why isn't Felt decentralized or federated? </summary>
 			<p>
-				We expect our tech — which is focused on <em>communities</em>, not <em>messaging</em> — to
-				eventually support a decentralized protocol standard, perhaps with ActivityPub or Matrix or both, but
-				today we are focused on UX quality and implementation velocity. We find it much easier to
-				deliver good UX with a centralized architecture given the nature of decentralized systems
-				and our small self-funded team with no expertise in such things. If Matrix fits your
-				usecases, we recommend considering using it instead of Felt. For microblogging, we recommend
-				Mastodon. Felt's focus is on communities and their custom needs, with an emphasis on
-				delivering a polished UX in smaller scale, higher trust environments. We are however
-				attempting to follow the standard ActivityPub/Fediverse/Mastodon/etc
+				We expect our tech — which is focused on <em>communities</em>, not <em>messaging</em> — to eventually
+				support a decentralized protocol standard, perhaps with ActivityPub or Matrix or both, but today
+				we are focused on UX quality and implementation velocity. We find it much easier to deliver good
+				UX with a centralized architecture given the nature of decentralized systems and our small self-funded
+				team with no expertise in such things. If Matrix fits your usecases, we recommend considering
+				using it instead of Felt. For microblogging, we recommend Mastodon.
+			</p>
+			<p>
+				Felt's focus is on communities and their custom needs, with an emphasis on delivering a
+				polished UX in smaller scale, higher trust environments. We are however attempting to follow
+				the standard ActivityPub/Fediverse/Mastodon/etc
 				<a href="https://www.w3.org/TR/activitystreams-vocabulary/">ActivityStreams vocabulary</a>,
 				(but not ActivityPub the federated protocol, not yet) setting us up for potential future
 				compatibility. We're also maintaining JSON schemas that can be used in any programming
@@ -144,33 +105,29 @@
 		</details>
 
 		<details>
-			<summary>What features will Felt have?</summary>
-			<p>Here's the current plan (it'll change):</p>
+			<summary>What features does Felt have?</summary>
+			<p>Some highlights:</p>
 			<ul>
-				<li>customizable tools for online and offline communities</li>
-				<li>chats and forums and all sorts of novel variations</li>
-				<li>malleable media that we design and share</li>
-				<li>advanced moderation and shared governance</li>
-				<li>polls and fun interactives</li>
-				<li>events and rsvps</li>
+				<li>chats, boards and forums for any speed of communication</li>
+				<li>malleable media that we can design and share collaborativley</li>
+				<li>a moderation and shared governance system</li>
 				<li>note taking and sharing</li>
-				<li>tasks and todos and reminders</li>
-				<li>bookmarks and aggregation and adventure</li>
-				<li>p2p video, audio, messaging, etc</li>
-				<li>blogs and web publishing</li>
-				<li>maybe one day, galaxies of interesting communities to explore</li>
-				<li>client software that users fully control</li>
-				<li>client software that works with many service providers in a single app</li>
+				<li>tasks and todo lists</li>
 				<li>server software that's easy to self-host</li>
-				<li>and more, you know</li>
+				<li>and more coming</li>
 			</ul>
+			<!--TODO link to Felt's roadmap-->
 		</details>
 		<details>
 			<summary>How much does Felt cost?</summary>
 			<p>
-				If you want to self host, you can go spin up your own instance today. If that sounds like a
-				paint though, hosting & memberships will be some modest amount of money, hopefully less than
-				you think. We'll probably have a way to invite friends for free. Check back in Q1 2023.
+				If you want to self host, you can go spin up your own instance today on your own hardware
+				for free.
+			</p>
+			<p>
+				If that sounds like a pain though, check out
+				<a href="https://www.felt.social/">Felt.social</a>
+				for details on paid hosting & communites.
 			</p>
 		</details>
 		<details>

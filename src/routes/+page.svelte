@@ -1,11 +1,11 @@
 <script lang="ts">
 	import Header from '$lib/Header.svelte';
 	import Footer from '$lib/Footer.svelte';
-	import Intro from '$lib/Intro.svelte';
+	import Intro from '$routes/Intro.svelte';
 
 	import {project} from '$lib/project';
-	import LearnAboutFelt from '$lib/LearnAboutFelt.svelte';
-	import Repos from '$lib/Repos.svelte';
+	import LearnAboutFelt from '$routes/LearnAboutFelt.svelte';
+	import Repos from '$routes/Repos.svelte';
 </script>
 
 <section>
