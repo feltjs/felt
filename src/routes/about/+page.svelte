@@ -128,7 +128,7 @@
 			<summary> Why isn't Felt decentralized or federated? </summary>
 			<p>
 				We expect our tech — which is focused on <em>communities</em>, not <em>messaging</em> — to
-				eventually be decentralized/federated/etc, perhaps with ActivityPub or Matrix or both, but
+				eventually support a decentralized protocol standard, perhaps with ActivityPub or Matrix or both, but
 				today we are focused on UX quality and implementation velocity. We find it much easier to
 				deliver good UX with a centralized architecture given the nature of decentralized systems
 				and our small self-funded team with no expertise in such things. If Matrix fits your
