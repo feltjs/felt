@@ -1,6 +1,6 @@
 <script lang="ts">
-	import Header from '$lib/Header.svelte';
-	import Footer from '$lib/Footer.svelte';
+	import Header from '$routes/Header.svelte';
+	import Footer from '$routes/Footer.svelte';
 	import Intro from '$routes/Intro.svelte';
 
 	import {project} from '$lib/project';
