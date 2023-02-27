@@ -5,17 +5,19 @@
 		<link rel="icon" href="./favicon.png" />
 		<meta name="viewport" content="width=device-width" />
 		<meta http-equiv="content-security-policy" content="">
-		<link href="./_app/immutable/assets/_layout-7163bc4f.css" rel="stylesheet">
-		<link href="./_app/immutable/assets/_page-5b759cf5.css" rel="stylesheet">
-		<link rel="modulepreload" href="./_app/immutable/start-c5ee6f3e.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/index-376a0c3a.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/singletons-22604cc2.js">
-		<link rel="modulepreload" href="./_app/immutable/components/pages/_layout.svelte-89334723.js">
+		<link href="./_app/immutable/assets/_layout-b0c26e4e.css" rel="stylesheet">
+		<link href="./_app/immutable/assets/_page-a0822ed3.css" rel="stylesheet">
+		<link href="./_app/immutable/assets/project-67f63dc8.css" rel="stylesheet">
+		<link rel="modulepreload" href="./_app/immutable/start-5d340033.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index-27021884.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/singletons-ce5d2730.js">
+		<link rel="modulepreload" href="./_app/immutable/components/pages/_layout.svelte-dd2217d0.js">
 		<link rel="modulepreload" href="./_app/immutable/modules/pages/_layout.ts-9cbb603b.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/_layout-da46b06b.js">
-		<link rel="modulepreload" href="./_app/immutable/components/pages/_page.svelte-9e2e23fe.js">
+		<link rel="modulepreload" href="./_app/immutable/components/pages/_page.svelte-9a8f0a36.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/project-3e6003df.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/string-9ffd8d65.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/stores-4fac92c3.js"><title>felt</title><!-- HEAD_svelte-idazb5_START --><!-- HEAD_svelte-idazb5_END -->
+		<link rel="modulepreload" href="./_app/immutable/chunks/stores-e0e5a803.js"><title>felt</title><!-- HEAD_svelte-idazb5_START --><!-- HEAD_svelte-idazb5_END -->
 	</head>
 	<body data-sveltekit-preload-data="hover">
 		<div style="display: contents">
@@ -23,27 +25,49 @@
 
 
 
-<main class="markup column svelte-9a29eh"><section><header class="centered svelte-9a29eh"><h1 class="svelte-9a29eh"><a href="https://github.com/feltjs/felt">Felt</a></h1></header>
-		<blockquote class="column-sm">Felt is free and open source software and tools for building and maintaining communities, publishing to the web, and collaborating with information💚</blockquote></section>
-	<section class="panel padded-md"><h2 style="width: 100%">Repos</h2>
-		<table><tbody><tr class="svelte-9a29eh"><td class="svelte-9a29eh"><a href="https://github.com/feltjs/felt">Felt project website</a></td><td class="svelte-9a29eh"><a href="https://www.felt.dev/">felt.dev</a></td><td class="svelte-9a29eh">you are here</td></tr><tr class="svelte-9a29eh"><td class="svelte-9a29eh"><a href="https://github.com/feltjs/felt-server"><code>@feltjs/felt-server</code></a></td><td class="svelte-9a29eh"><a href=""></a></td><td class="svelte-9a29eh">server for Felt, a tool for building and maintaining communities</td></tr><tr class="svelte-9a29eh"><td class="svelte-9a29eh"><a href="https://github.com/feltjs/felt-ui"><code>@feltjs/felt-ui</code></a></td><td class="svelte-9a29eh"><a href="https://ui.felt.dev/">ui.felt.dev</a></td><td class="svelte-9a29eh">styles and UI components for Svelte and SvelteKit</td></tr><tr class="svelte-9a29eh"><td class="svelte-9a29eh"><a href="https://github.com/feltjs/felt-template">felt-template</a></td><td class="svelte-9a29eh"><a href="https://template.felt.dev/">template.felt.dev</a></td><td class="svelte-9a29eh">a static web app and Node library template with Svelte, SvelteKit, Vite, TypesScript, ESLint, Prettier, Gro, and Felt</td></tr><tr class="svelte-9a29eh"><td class="svelte-9a29eh"><a href="https://github.com/feltjs/gro"><code>@feltjs/gro</code></a></td><td class="svelte-9a29eh"><a href=""></a></td><td class="svelte-9a29eh">opinionated webdev toolkit</td></tr><tr class="svelte-9a29eh"><td class="svelte-9a29eh"><a href="https://github.com/feltjs/util"><code>@feltjs/felt-util</code></a></td><td class="svelte-9a29eh"><a href="https://util.felt.dev/">util.felt.dev</a></td><td class="svelte-9a29eh">a collection of JS utilities to complement the modern web platform</td></tr></tbody></table></section>
-	<section class="centered panel padded-lg"><h2 style="width: 100%">Values</h2>
-		<ul><li>we put the people who use our software first</li><li>sustainability through aligned incentives</li><li>intentional collaboration, community, and governance</li><li>accessibility, inclusivity, and diversity</li><li>open source, interoperability, and extensibility</li><li>distributed power and democracy</li><li>transparency and accountability</li><li>simplicity and efficiency</li><li>privacy by default</li><li>easy self-hosting on low-power hardware</li><li>fostering learning and experimentation</li></ul>
-		<p style="width: 100%">See <a href="https://github.com/feltjs/felt/blob/main/GOVERNANCE.md">GOVERNANCE.md</a> for more.
-		</p></section>
-	<footer class="panel padded-md centered"><p><a href="https://github.com/feltjs/felt">source code</a></p>
-		<a class="footer-image-link svelte-9a29eh" href="https://github.com/feltjs"><img src="/favicon.png" alt="green felt textured heart with the word 'felt' cut out"></a></footer>
+<main class="svelte-1sws19p"><section class="svelte-7vmni3"><header class="svelte-1krgsvu"><a href="/" class="svelte-1krgsvu"><div class="wrapper svelte-b5mhrr"><img src="/felt.png" alt="green felt textured heart with the word 'felt' cut out" class="svelte-b5mhrr">
+</div></a>
+	<h1 class="svelte-7vmni3">A free and open source toolkit for building and maintaining communities</h1>
+</header></section>
+<section class="svelte-7vmni3"><p class="panel padded-xl"><strong>Felt</strong>
+	is a
+	<small><code>work in progress</code></small> toolkit of free and open source software. In our mission
+	to make our lives better with technology, we design and code tools that make it simple and easy to
+	build and maintain communities, publish to the web, and collaborate with information 💚
+</p></section>
+<section class="svelte-7vmni3"><a class="panel svelte-168o7y6" href="/about"><div class="text svelte-168o7y6"><div>about</div>
+		<div>Felt</div></div>
+	<div class="heart svelte-168o7y6">💚</div></a></section>
+<section class="svelte-7vmni3"><h2 style="width: 100%">Repos</h2>
+
+<table><tbody><tr class="svelte-7xc6qh"><td class="svelte-7xc6qh"><a href="https://github.com/feltjs/felt">Felt project website</a></td><td class="svelte-7xc6qh"><a href="https://www.felt.dev/">felt.dev</a></td><td class="svelte-7xc6qh">you are here</td></tr><tr class="svelte-7xc6qh"><td class="svelte-7xc6qh"><a href="https://github.com/feltjs/felt-server"><code>@feltjs/felt-server</code></a></td><td class="svelte-7xc6qh"><a href=""></a></td><td class="svelte-7xc6qh">server for Felt, a tool for building and maintaining communities</td></tr><tr class="svelte-7xc6qh"><td class="svelte-7xc6qh"><a href="https://github.com/feltjs/felt-ui"><code>@feltjs/felt-ui</code></a></td><td class="svelte-7xc6qh"><a href="https://ui.felt.dev/">ui.felt.dev</a></td><td class="svelte-7xc6qh">styles and UI components for Svelte and SvelteKit</td></tr><tr class="svelte-7xc6qh"><td class="svelte-7xc6qh"><a href="https://github.com/feltjs/felt-template">felt-template</a></td><td class="svelte-7xc6qh"><a href="https://template.felt.dev/">template.felt.dev</a></td><td class="svelte-7xc6qh">a static web app and Node library template with Svelte, SvelteKit, Vite, TypesScript, ESLint, Prettier, Gro, and Felt</td></tr><tr class="svelte-7xc6qh"><td class="svelte-7xc6qh"><a href="https://github.com/feltjs/gro"><code>@feltjs/gro</code></a></td><td class="svelte-7xc6qh"><a href=""></a></td><td class="svelte-7xc6qh">opinionated webdev toolkit</td></tr><tr class="svelte-7xc6qh"><td class="svelte-7xc6qh"><a href="https://github.com/feltjs/util"><code>@feltjs/felt-util</code></a></td><td class="svelte-7xc6qh"><a href="https://util.felt.dev/">util.felt.dev</a></td><td class="svelte-7xc6qh">a collection of JS utilities to complement the modern web platform</td></tr></tbody>
+</table></section>
+<section class="svelte-7vmni3"><div class="footer-wrapper"><footer class="svelte-1q9mtv7">💚
+	<div class="social svelte-1hu76rl"><a href="https://github.com/feltjs" rel="me noopener" class="svelte-1hu76rl"><svg viewBox="0 0 1024 1024" fill="none" style="width: 64px; height: 64px"><path fill="var(--link_color)" fill-rule="evenodd" clip-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8C0 11.54 2.29 14.53 5.47 15.59C5.87 15.66 6.02
+		15.42 6.02 15.21C6.02 15.02 6.01 14.39 6.01 13.72C4 14.09 3.48 13.23 3.32
+		12.78C3.23 12.55 2.84 11.84 2.5 11.65C2.22 11.5 1.82 11.13 2.49 11.12C3.12
+		11.11 3.57 11.7 3.72 11.94C4.44 13.15 5.59 12.81 6.05 12.6C6.12 12.08 6.33
+		11.73 6.56 11.53C4.78 11.33 2.92 10.64 2.92 7.58C2.92 6.71 3.23 5.99 3.74
+		5.43C3.66 5.23 3.38 4.41 3.82 3.31C3.82 3.31 4.49 3.1 6.02 4.13C6.66 3.95
+		7.34 3.86 8.02 3.86C8.7 3.86 9.38 3.95 10.02 4.13C11.55 3.09 12.22 3.31
+		12.22 3.31C12.66 4.41 12.38 5.23 12.3 5.43C12.81 5.99 13.12 6.7 13.12
+		7.58C13.12 10.65 11.25 11.33 9.47 11.53C9.76 11.78 10.01 12.26 10.01
+		13.01C10.01 14.08 10 14.94 10 15.21C10 15.42 10.15 15.67 10.55 15.59C13.71
+		14.53 16 11.53 16 8C16 3.58 12.42 0 8 0Z" transform="scale(64)"></path></svg></a>
+</div>
+</footer></div>
+</section>
 </main>
 
 
-		<script type="module" data-sveltekit-hydrate="o2shjv">
-			import { start } from "./_app/immutable/start-c5ee6f3e.js";
+		<script type="module" data-sveltekit-hydrate="1nnf79b">
+			import { start } from "./_app/immutable/start-5d340033.js";
 
 			start({
 				assets: "",
 				env: {},
-				target: document.querySelector('[data-sveltekit-hydrate="o2shjv"]').parentNode,
-				version: "1676393824084",
+				target: document.querySelector('[data-sveltekit-hydrate="1nnf79b"]').parentNode,
+				version: "1677538876879",
 				hydrate: {
 					node_ids: [0, 2],
 					data: [null,null],
