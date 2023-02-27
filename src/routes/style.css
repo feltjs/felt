@@ -1,9 +1,4 @@
-/* global stylesheet imported by `src/routes/__layout.svelte */
-
-/*
-
 :root {
-  --some_stylish_property: 100%;
+	--main_icon_size_md: 100px;
+	--main_icon_size_sm: 62px;
 }
-
-*/
