@@ -127,7 +127,7 @@
 			<p>
 				If that sounds like a pain though, check out
 				<a href="https://www.felt.social/">Felt.social</a>
-				for details on paid hosting & communites.
+				for details on paid hosting and communites.
 			</p>
 		</details>
 		<details>
