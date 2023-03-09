@@ -2,8 +2,6 @@
 	import Header from '$routes/Header.svelte';
 	import Footer from '$routes/Footer.svelte';
 	import Values from '$routes/about/Values.svelte';
-
-	// TODO BLOCK see `TODO replace with tagline` below
 </script>
 
 <svelte:head>
@@ -17,7 +15,7 @@
 		</Header>
 	</section>
 	<section>
-		<h2>TODO replace with tagline</h2>
+		<h2>Felt's mission is to make our lives better with technology</h2>
 		<p>
 			As part of that mission we're developing Felt (<a href="https://www.felt.dev/">felt.dev</a>,
 			<a href="https://github.com/feltjs">@feltjs</a> on GitHub), a free and open source toolkit for
