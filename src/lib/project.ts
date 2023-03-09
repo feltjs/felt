@@ -32,7 +32,7 @@ export const project: Project = {
 		},
 		{
 			name: '@feltjs/felt-server',
-			summary: 'server for Felt, a tool for building and maintaining communities',
+			summary: 'server for Felt, a toolkit for building and maintaining communities',
 			url: '', // TODO https://server.felt.dev/
 			source: 'https://github.com/feltjs/felt-server',
 		},
