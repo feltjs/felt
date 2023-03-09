@@ -17,7 +17,7 @@
 	<section>
 		<h2>Felt's mission is to make our lives better with technology</h2>
 		<p>
-			As part of that mission we are developing Felt (<a href="https://www.felt.dev/">felt.dev</a>,
+			As part of that mission we're developing Felt (<a href="https://www.felt.dev/">felt.dev</a>,
 			<a href="https://github.com/feltjs">@feltjs</a> on GitHub), a free and open source toolkit for
 			building and maintaining communities, publishing to the web, and collaborating with information.
 		</p>
@@ -127,7 +127,7 @@
 			<p>
 				If that sounds like a pain though, check out
 				<a href="https://www.felt.social/">Felt.social</a>
-				for details on paid hosting & communites.
+				for details on paid hosting and communites.
 			</p>
 		</details>
 		<details>

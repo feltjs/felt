@@ -22,7 +22,7 @@ export interface Operator {
 export const project: Project = {
 	name: 'Felt',
 	source: 'https://github.com/feltjs/felt',
-	summary: 'A free and open source toolkit for building and maintaining communities',
+	summary: 'A free and open source toolkit for building and maintaining communities', // TODO BLOCK tagline
 	repos: [
 		{
 			name: 'Felt project website',
@@ -32,7 +32,7 @@ export const project: Project = {
 		},
 		{
 			name: '@feltjs/felt-server',
-			summary: 'server for Felt, a tool for building and maintaining communities',
+			summary: 'server for Felt, a toolkit for building and maintaining communities',
 			url: '', // TODO https://server.felt.dev/
 			source: 'https://github.com/feltjs/felt-server',
 		},
